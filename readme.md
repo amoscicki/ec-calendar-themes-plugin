@@ -21,8 +21,8 @@ const options = {
 
 ## Example theme file content
 
-_~Note: Due to currently applied stylesheet structure,
-you may find specificity of the styles will require `!` in front of your tailwindcss classes in order for them to be applied.~_
+**~Note: Due to currently applied stylesheet structure,
+you may find specificity of the styles will require `!` in front of your tailwindcss classes in order for them to be applied.~**
 
 ```javascript
 export const ecCustomTheme = {
@@ -54,7 +54,7 @@ export const ecCustomTheme = {
 # Default classes and descriptions per View:
 
 ## DayGrid
-
+```
 active: "ec-active", // active tab button
 allDay: "ec-all-day ", // ?? unused?
 bgEvent: "ec-bg-event ", // ?? unused?
@@ -99,3 +99,4 @@ weekdays: [
 "ec-sat", // column saturday
 ],
 withScroll: "ec-with-scroll ", // ?? unused?
+```
