@@ -21,8 +21,8 @@ const options = {
 
 ## Example theme file content
 
-**~Note: Due to currently applied stylesheet structure,
-you may find specificity of the styles will require `!` in front of your tailwindcss classes in order for them to be applied.~**
+**_Note: Due to currently applied stylesheet structure,
+you may find specificity of the styles will require `!` in front of your tailwindcss classes in order for them to be applied._**
 
 ```javascript
 export const ecCustomTheme = {
